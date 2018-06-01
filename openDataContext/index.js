@@ -127,7 +127,7 @@ function init() {
   intervalX = barWidth / 15;
   textOffsetY = (barHeight + fontSize) / 2 - 6;
   cupOffsetY = (barHeight + cupSize) / 2 ;
-  textMaxSize = 250;
+  textMaxSize = 100;
   indexWidth = context.measureText("99").width;
 
   //按钮绘制数据初始化
